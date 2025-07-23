@@ -1,0 +1,259 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Spartan', sans-serif;
+}
+.container3{
+    height: 12vh;
+    width: 100%;
+     background-color:#000000; 
+}
+.navbar{
+    height: 10vh;
+    width: 100%;
+   /* background-color: rgb(0, 0, 0);  */
+   justify-content: space-between;
+    display: flex;
+
+}
+.logo{
+    height: 13vh;
+    width: 13%;
+    /* background-color: beige; */
+   padding: 4px;
+   
+  
+
+}
+.logo img{
+    height: 10vh;
+ 
+    border-radius: 15px; 
+      width: 40%;
+    /* margin: 1px; */
+    /* padding: 5px; */
+}
+.nav{
+    height: 11vh;
+    width: 40%;
+    /* background-color: brown; */
+    justify-content: center;
+    display: flex;
+    justify-content: center;
+  
+    
+}
+.nav ul{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: space-evenly;
+    font-size: 25px;
+    padding: 30px;
+    
+    font-family:'Times New Roman', Times, serif;
+    color: rgb(255, 255, 255);
+    
+}
+.nav ul li{
+    display: flex;
+   align-items: center;
+   justify-content: space-evenly;
+ margin-right: 43px;
+ color: aliceblue;
+}
+
+.nav ul li:hover{
+  color:grey;
+    /* background-color: blueviolet; */
+    display: inline-block;
+    position: relative;
+  border-bottom: 2px solid;
+}
+h1 {
+    font-size: 50px;
+    line-height: 2px;    
+}
+h2 {
+    font-size: 46px;
+    line-height: 54px;
+}
+h4 {
+    font-size: 15px;
+    line-height: 2px;
+}
+h6 {
+    font-weight: 700;
+    font-size: 12px;
+}
+p {
+    font-size: 16px;
+    margin: 15px 0 20px 0;
+}
+.section-p1 {
+    padding: 40px 80px;
+}
+.section-m1 {
+    margin: 40px 0;
+}
+body {
+    width: 100%;
+    
+}
+.notification {
+    position: fixed; 
+    top: 1%;
+    transform: translateX(-50%);
+    background-color: rgba(0, 128, 0, 0.8);
+    color: white; 
+    padding: 10px 20px; 
+    border-radius: 5px; 
+    z-index: 1000; 
+    transition: opacity 0.7s ease; 
+    opacity: 0; 
+}
+
+
+/* Page header styling */
+#page-header {
+    background-image: url("11.png");
+    width: 100%;
+    height: 80vh;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    padding: 14px;
+}
+
+/* Header and Navbar styling */
+#header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 40px;
+    background-color: rgb(253, 247, 247);
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.06);
+}
+
+
+#navbar {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+#navbar li {
+    display: inline;
+	margin-left: 40px;
+}
+
+#navbar a {
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+#navbar a:hover {
+    color: rgb(255, 255, 255);
+}
+
+
+#product1 .pro {
+    width: 23%;
+    min-width: 250px;
+    padding: 10px 12px;
+    border: 1px solid gray;
+    border-radius: 25px;
+    cursor: pointer;
+    margin: 15px 0;
+    transition: 0.2s ease;
+    position: relative;
+}
+
+#product1 .pro:hover {
+    box-shadow: 0px 0px 10px 5px gray;
+}
+
+#product1 .pro img {
+    max-width: 100%;
+    border-radius: 20px;
+    object-fit: cover;
+    object-position: center;
+    height: 70%;
+}
+
+#product1 .container {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    flex-wrap: wrap;
+}
+
+/* Single product styling */
+#prodetails {
+    display: flex;
+    margin-top: 20px;
+}
+
+#prodetails .single-pro-image {
+    width: 40%;
+    margin-right: 50px;
+}
+
+#prodetails .single-pro-details {
+    width: 50%;
+    padding-top: 30px;
+}
+
+#prodetails .single-pro-details h4 {
+    padding: 40px 0 20px 0;
+}
+
+#prodetails .single-pro-details h2 {
+    padding: 20px;
+}
+
+#prodetails .single-pro-details input {
+    width: 50px;
+    height: 47px;
+    padding-left: 10px;
+    font-size: 16px;
+    margin-right: 10px;
+}
+
+#prodetails .single-pro-details button {
+    background: #088178;
+    color: #fff;
+    cursor: pointer;
+}
+
+#prodetails .single-pro-details span {
+    line-height: 25px;
+}
+
+/* Footer styling */
+.foot {
+    height: 270px;
+    width: 1200px;
+    background-color: black;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.contact {
+    height: 50px;
+    width: 1350px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.contact1 p:hover, 
+.contact2 p:hover, 
+.contact3 p:hover, 
+.contact4 p:hover {
+    border: 1px solid white;
+}
